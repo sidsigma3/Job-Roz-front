@@ -49,7 +49,7 @@ const App = () => {
       {/* Header */}
       <header style={styles.header}>
         <div style={styles.maxContainer}>
-          <h1 style={styles.title}>India Job Search</h1>
+          <h1 style={styles.title}>Job Roz</h1>
           <p style={styles.subtitle}>Find your next career move across India</p>
         </div>
       </header>
