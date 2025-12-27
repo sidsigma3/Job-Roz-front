@@ -15,7 +15,8 @@ const App = () => {
 
   try {
     const response = await fetch(
-      `http://localhost:4000/api/jobs?query=${encodeURIComponent(query)}&location=${encodeURIComponent(location)}`
+      // `http://localhost:4000/api/jobs?query=${encodeURIComponent(query)}&location=${encodeURIComponent(location)}`
+      `https://job-roz-back.vercel.app/api/jobs?query=${encodeURIComponent(query)}&location=${encodeURIComponent(location)}`
     );
 
     if (!response.ok) throw new Error("Failed to fetch jobs");
